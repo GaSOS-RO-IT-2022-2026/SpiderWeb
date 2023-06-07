@@ -1,0 +1,30 @@
+# Development Environment
+.obsidian/
+.vscode/
+
+# 3rd Party Libraries
+app/static/js/bootstrap.min.js
+app/static/js/popper.min.js
+app/static/sass/bootstrap/
+
+# Compiled css
+# Run "make compile" to compile all sass/ts targets
+app/static/css/main.css
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Database
+# To migrate your database, run "make migrate"
+migrations/
