@@ -1,6 +1,11 @@
+@import './bootstrap/functions';
+@import './bootstrap/variables';
+
 .cookie-consent {
   position: fixed;
   bottom: 0px;
 }
 
-@import "./bootstrap/scss/bootstrap";
+$enable-negative-margins: true;
+
+@import "./bootstrap/bootstrap";
