@@ -75,5 +75,9 @@ guni ::
 	cd ..
 	gunicorn app:app -b 0.0.0.0
 
+debug ::
+	cd ..
+	flask run -h 0.0.0.0 -p 8000
+
 css ::
 	sassc static/sass/main.scss static/css/main.css
