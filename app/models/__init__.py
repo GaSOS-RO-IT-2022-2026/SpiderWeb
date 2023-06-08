@@ -1,1 +1,2 @@
-from .example import ExampleModel
+from .user import User
+from .permission import Perm
