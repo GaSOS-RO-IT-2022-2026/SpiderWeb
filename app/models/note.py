@@ -6,9 +6,9 @@ from sqlalchemy.dialects.postgresql import ARRAY
 class Note(db.Model):
     __tablename__ = "notes"
 
-    id = db.Column(db.Integer, primary_key=True)
-    author_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False)
-    subject_id = db.Column(db.Integer, db.ForeignKey("subjects.id"), nullable=False)
+    noteid = db.Column(db.Integer, primary_key=True)
+    userid = db.Column(db.Integer, db.ForeignKey("users.userid"), nullable=False)
+    subjectid = db.Column(db.Integer, db.ForeignKey("subjects.subjectid"), nullable=False)
     title = db.Column(db.String, nullable=False)
     content = db.Column(db.String, default=False)
     attachments = db.Column(ARRAY(db.String))

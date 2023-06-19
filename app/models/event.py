@@ -6,9 +6,9 @@ from ..lib.types import EventType
 class Event(db.Model):
     __tablename__ = "events"
 
-    id = db.Column(db.Integer, primary_key=True)
+    eventid = db.Column(db.Integer, primary_key=True)
     kind = db.Column(db.Enum(EventType))
-    author_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False)
+    userid = db.Column(db.Integer, db.ForeignKey("users.userid"), nullable=False)
     title = db.Column(db.String, nullable=False)
     description = db.Column(db.String, default=False)
     deadline = db.Column(db.Date, nullable=True)

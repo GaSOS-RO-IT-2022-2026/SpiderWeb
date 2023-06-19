@@ -4,7 +4,7 @@ from app import db
 class Perm(db.Model):
     __tablename__ = "perms"
 
-    id = db.Column(db.Integer, primary_key=True)
+    permid = db.Column(db.Integer, primary_key=True)
     weight = db.Column(db.Integer)
     action = db.Column(db.String())
     resource = db.Column(db.String())
