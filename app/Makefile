@@ -58,6 +58,8 @@ bootstrap ::
 	rm ./v5.3.0.zip
 	mv ./bootstrap-5.3.0/scss/ ./static/sass/bootstrap/
 	rm -frd ./bootstrap-5.3.0/
+	wget https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css
+	mv ./bootstrap-icons.css ./static/css/bootstrap-icons.css
 
 jslibs ::
 	wget https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js

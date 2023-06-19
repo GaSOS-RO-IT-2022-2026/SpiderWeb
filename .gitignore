@@ -6,6 +6,7 @@
 app/static/js/bootstrap.min.js
 app/static/js/popper.min.js
 app/static/sass/bootstrap/
+app/static/css/bootstrap-icons.css
 
 # Compiled css
 # Run "make compile" to compile all sass/ts targets
