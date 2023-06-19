@@ -9,7 +9,11 @@
     <title>Login</title>
 </head>
 <body class="h-100" data-bs-theme="dark">
-  <button class="position-fixed bottom-0 m-3 btn btn-primary d-lg-none" style="z-index: 999;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">Toggle offcanvas</button>
+  <button class="position-fixed bottom-0 m-3 btn btn-primary d-lg-none shadow p-2 rounded-circle" style="z-index: 999;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">
+    <svg xmlns="http://www.w3.org/2000/svg" style="width: 2rem;" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+    </svg>
+  </button>
   <div class="d-flex h-100">
 
     
@@ -50,6 +54,7 @@
           <a href="homework.html" class="nav-link text-white">
             <i class="bi bi-book me-2"></i>
             Homework
+          
           </a>
         </li>
         <li>
@@ -111,7 +116,7 @@
       </ul>
       <br>
       <h2>Calendar</h2>
-      <div class="card overflow-hidden" style="width: min-content;">
+      <div class="card overflow-hidden overflow-x-scroll" style="width: min-content; max-width: 100%;">
         <div class="card-body ">
           <table class="table font-monospace m-n3 text-center rounded" style="width: min-content;">
             <thead class="rounded">
