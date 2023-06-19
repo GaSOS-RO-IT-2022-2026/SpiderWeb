@@ -1,41 +1,41 @@
-<mxfile host="Electron" modified="2023-06-19T16:24:48.868Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.4.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="_yEP0EJbDdUl1C-LIQGm" version="21.4.0" type="device" pages="2">
+<mxfile host="Electron" modified="2023-06-19T16:26:32.972Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.4.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="5LbGUAI83OHkRQYtd6FQ" version="21.4.0" type="device" pages="2">
   <diagram name="Web server layout" id="7T9eAAxBZUJhkvQ-6Wci">
-    <mxGraphModel dx="1434" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LApCluOpGaiRewY9ll-M-1" value="" style="endArrow=none;html=1;rounded=0;fillColor=#60a917;strokeColor=#2D7600;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="560" as="sourcePoint" />
-            <mxPoint x="400" y="280" as="targetPoint" />
+            <mxPoint x="410" y="700" as="sourcePoint" />
+            <mxPoint x="410" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;shape=link;" parent="1" source="LApCluOpGaiRewY9ll-M-4" target="LApCluOpGaiRewY9ll-M-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-4" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="90" y="435" width="60" height="80" as="geometry" />
+          <mxGeometry x="100" y="575" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-9" value="Flask API" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="440" width="80" height="110" as="geometry" />
+          <mxGeometry x="220" y="580" width="80" height="110" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="LApCluOpGaiRewY9ll-M-14" target="LApCluOpGaiRewY9ll-M-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-14" value="Flask server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="320" width="80" height="110" as="geometry" />
+          <mxGeometry x="220" y="460" width="80" height="110" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-20" value="GUI" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="660" y="320" width="120" height="230" as="geometry" />
+          <mxGeometry x="670" y="460" width="120" height="230" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-21" value="JS File (vite SPA)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="480" y="320" width="120" height="230" as="geometry" />
+          <mxGeometry x="490" y="460" width="120" height="230" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="LApCluOpGaiRewY9ll-M-26" target="LApCluOpGaiRewY9ll-M-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-26" value="Html render" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="360" width="100" height="60" as="geometry" />
+          <mxGeometry x="500" y="500" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="LApCluOpGaiRewY9ll-M-27" target="LApCluOpGaiRewY9ll-M-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -44,64 +44,64 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-27" value="Api requests" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="460" width="100" height="30" as="geometry" />
+          <mxGeometry x="500" y="600" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-28" value="PWA?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="430" width="100" height="20" as="geometry" />
+          <mxGeometry x="500" y="570" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-34" value="Blog, events etc." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="295" y="500" width="100" height="10" as="geometry" />
+          <mxGeometry x="305" y="640" width="100" height="10" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-36" value="Client side" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="550" y="290" width="120" height="20" as="geometry" />
+          <mxGeometry x="560" y="430" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startSize=3;endSize=0;" parent="1" source="LApCluOpGaiRewY9ll-M-37" target="LApCluOpGaiRewY9ll-M-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-37" value="Functions" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="500" width="100" height="40" as="geometry" />
+          <mxGeometry x="500" y="640" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LApCluOpGaiRewY9ll-M-38" target="LApCluOpGaiRewY9ll-M-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-38" value="Buttons" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="350" width="100" height="60" as="geometry" />
+          <mxGeometry x="680" y="490" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LApCluOpGaiRewY9ll-M-39" target="LApCluOpGaiRewY9ll-M-37" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="590" y="490" as="targetPoint" />
+            <mxPoint x="600" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-39" value="Feeds" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="420" width="100" height="120" as="geometry" />
+          <mxGeometry x="680" y="560" width="100" height="120" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-50" value="One time request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="295" y="360" width="100" height="10" as="geometry" />
+          <mxGeometry x="305" y="500" width="100" height="10" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-56" value="Server side" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="190" y="290" width="120" height="20" as="geometry" />
+          <mxGeometry x="200" y="430" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-72" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="50" y="240" as="sourcePoint" />
-            <mxPoint x="800" y="240" as="targetPoint" />
+            <mxPoint x="60" y="380" as="sourcePoint" />
+            <mxPoint x="810" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-73" value="" style="endArrow=none;html=1;rounded=0;fillColor=#60a917;strokeColor=#2D7600;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="230" as="sourcePoint" />
-            <mxPoint x="400" y="-50" as="targetPoint" />
+            <mxPoint x="410" y="370" as="sourcePoint" />
+            <mxPoint x="410" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" parent="1" source="LApCluOpGaiRewY9ll-M-75" target="LApCluOpGaiRewY9ll-M-78" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-75" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="150" y="70" width="60" height="80" as="geometry" />
+          <mxGeometry x="160" y="210" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LApCluOpGaiRewY9ll-M-78" target="LApCluOpGaiRewY9ll-M-79" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="47.5" as="targetPoint" />
+            <mxPoint x="490" y="187.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-98" value="All" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LApCluOpGaiRewY9ll-M-77" vertex="1" connectable="0">
@@ -110,28 +110,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-78" value="Flask server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="295" y="-10" width="80" height="230" as="geometry" />
+          <mxGeometry x="305" y="130" width="80" height="230" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-79" value="GUI" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="430" y="-10" width="120" height="230" as="geometry" />
+          <mxGeometry x="440" y="130" width="120" height="230" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-88" value="Client side" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="550" y="-40" width="120" height="20" as="geometry" />
+          <mxGeometry x="560" y="100" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-92" value="Links" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="20" width="100" height="60" as="geometry" />
+          <mxGeometry x="450" y="160" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-96" value="Server side" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="190" y="-40" width="120" height="20" as="geometry" />
+          <mxGeometry x="200" y="100" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-100" value="Forms" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="90" width="100" height="60" as="geometry" />
+          <mxGeometry x="450" y="230" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-102" value="V1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="60" y="-40" width="60" height="30" as="geometry" />
+          <mxGeometry x="70" y="100" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LApCluOpGaiRewY9ll-M-103" value="V2 (some day?)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="60" y="260" width="190" height="30" as="geometry" />
+          <mxGeometry x="70" y="400" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
