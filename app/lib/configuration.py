@@ -3,7 +3,7 @@ from uuid import getnode
 from decouple import config
 
 pg_username = config("DB_USER", "root")
-pg_password = config("DB_USER", "root")
+pg_password = config("DB_PASS", "root")
 pg_host = config("DB_HOST", "localhost")
 try:
     pg_port = int(config("DB_PORT", "5432"))

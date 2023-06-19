@@ -23,11 +23,11 @@ help ::
 	echo guni - runs the gunicorn server
 	echo css - compiles sass files into css
 
-install :: setup compile cleansass
+install :: pythondepends setup compile cleansass
 
 run :: compile guni
 
-setup :: bootstrap jslibs
+setup :: clean bootstrap jslibs
 
 docker :: buildimg runimg
 
@@ -66,6 +66,9 @@ jslibs ::
 	wget https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js
 	mv ./bootstrap.min.js ./static/js/
 	mv ./popper.min.js ./static/js/
+
+pythondepends ::
+	pip install -r ./requirements.txt
 
 buildimg ::
 	docker build . -t classweb:latest
