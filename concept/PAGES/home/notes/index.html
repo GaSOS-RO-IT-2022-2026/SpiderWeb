@@ -94,18 +94,25 @@
     <h2>Notes</h2>
 
     <!-- seznam souborů pomocí karet -->
-    <div class="card-group">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-3">
 
       <!-- ?subject=" Jméno složky "&note=" Jméno souboru " -->
-      <a href="note.html?subject=Biologie&note=Nervová_soustava.md" class="text-decoration-none">
-        <div class="card mx-2 rounded">
+
+      <div class="col pt-1">
+        <div class="h-100 card">
           <div class="card-body">
 
             <!-- Jméno suboru -->
             <h5 class="card-title">Nervová_soustava.md</h5>
+            <p class="card-text">
+              some description
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quibusdam earum assumenda voluptatum blanditiis sit neque modi iure? Aliquid dolorum illo repellendus laborum! Tempore, exercitationem et accusamus minima consequatur atque!
+            </p>  
           </div>
+          <a href="note.html?subject=Biologie&note=Nervová_soustava.md" class="btn btn-primary border-start-0 border-bottom-0 border-end-0 card-footer">Open</a>
         </div>
-      </a>
+      </div>
+      
 
     </div>
   </div>
