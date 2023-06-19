@@ -28,3 +28,4 @@ venv.bak/
 # Database
 # To migrate your database, run "make migrate"
 migrations/
+*.bkp
