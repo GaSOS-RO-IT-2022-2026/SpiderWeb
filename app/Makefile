@@ -68,6 +68,7 @@ jslibs ::
 	mv ./popper.min.js ./static/js/
 
 pythondepends ::
+	pip install --upgrade pip
 	pip install -r ./requirements.txt
 
 buildimg ::
