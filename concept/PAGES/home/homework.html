@@ -8,12 +8,12 @@
     <link href="../../../app/static/css/main.css" rel="stylesheet">
     <title>Login</title>
 </head>
-<body class="h-100" data-bs-theme="dark">
-  <button class="position-fixed bottom-0 m-3 btn btn-primary d-lg-none shadow p-2 rounded-circle" style="z-index: 999;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">
-    <svg xmlns="http://www.w3.org/2000/svg" style="width: 2rem;" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-    </svg>
-  </button>
+<body class="h-100" data-bs-theme="dark" style="isolation: isolate;">
+  <button class="position-fixed bottom-0 m-3 btn btn-primary d-lg-none" style="z-index: 999;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">Toggle offcanvas</button>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" style="position: fixed;  opacity: 0.1; left: 100%; top: 100%; width: 100rem; max-width: 150%; transform: translate(-50%, -40%);" viewBox="0 0 16 16">
+    <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+  </svg>
+  
   <div class="d-flex h-100">
 
     
@@ -33,7 +33,7 @@
       <hr>
       <ul class="nav nav-pills flex-column mb-auto">
         <li class="nav-item">
-          <a href="index.html" class="nav-link active" aria-current="page">
+          <a href="index.html" class="nav-link text-white">
             <i class="bi bi-house-fill me-2"></i>
             Home
           </a>
@@ -51,10 +51,9 @@
           </a>
         </li>
         <li>
-          <a href="homework.html" class="nav-link text-white">
+          <a href="#" class="nav-link active" aria-current="page">
             <i class="bi bi-book me-2"></i>
             Homework
-          
           </a>
         </li>
         <li>
@@ -89,72 +88,29 @@
 </div>
     
     <div class="overflow-scroll px-4 bg-dark-subtle pt-4 w-100">
-    
-      <h1>Welcone {{User}}</h1>
-      <hr>
-      <h2>Feed</h2>
-      <ul class="list-group">
-        <li class="list-group-item">
-          <h4>Title</h4>
-          <p>content</p>
-        </li>
-        <li class="list-group-item">
-          <h4>Title</h4>
-          <p>content</p>
-        </li>
-        <li class="list-group-item">
-          <h4>Title</h4>
-          <p>content</p>
-        </li>
-        <li class="list-group-item">
-          <h4>Title</h4>
-          <p>content</p>
-        </li>
-        <li class="list-group-item list-group-item-action ">
-          Show more...
-        </li>
-      </ul>
-      <br>
-      <h2>Calendar</h2>
-      <div class="card overflow-hidden overflow-x-scroll" style="width: min-content; max-width: 100%;">
-        <div class="card-body ">
-          <table class="table font-monospace m-n3 text-center rounded" style="width: min-content;">
-            <thead class="rounded">
-              <tr>
-                <th scope="col">Mon</th>
-                <th scope="col">Tue</th>
-                <th scope="col">Wed</th>
-                <th scope="col">Thu</th>
-                <th scope="col">Thu</th>
-                <th scope="col">Thu</th>
-                <th scope="col">Thu</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr><!-- Row -->
-                <td><a class="btn btn-primary disabled">01</a></td> <!-- col -->
-                <td><a class="btn btn-primary">02</a></td>
-                <td><a class="btn btn-primary">03</a></td>
-                <td><a class="btn btn-primary">04</a></td>
-                <td><a class="btn btn-danger">05</a></td>
-                <td><a class="btn btn-primary">06</a></td>
-                <td><a class="btn btn-primary">07</a></td>
-              </tr>
-              <tr><!-- Row -->
-                <td><a class="btn btn-primary">08</a></td> <!-- col -->
-                <td><a class="btn btn-primary">09</a></td>
-                <td><a class="btn btn-primary">10</a></td>
-                <td><a class="btn btn-primary">11</a></td>
-                <td><a class="btn btn-primary">12</a></td>
-                <td><a class="btn btn-primary">13</a></td>
-                <td><a class="btn btn-primary">14</a></td>
-              </tr>
-            </tbody>
-          </table>
+        <h1>Homework</h1>
+        <hr>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-3 row-cols-xxl-4">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <!-- Homework name (title) -->
+                        <h5 class="card-title">Homework name</h5>
+                        <!-- some basic info about the homework -->
+                        <p class="card-text">info about the Homework</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <!-- date when homework must be finished (format: D.M RRRR or D.M RR) -->
+                        <li class="list-group-item"><b>Finish time: </b>6.3 2023</li>
+                        <!-- Subject name -->
+                        <li class="list-group-item"><b>Subject: </b>OPS</li>
+                        <!-- Opens modal or it could open classroom reference -->
+                        <li class="list-group-item"><a href="#" class="w-100 btn btn-primary">Open</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
-      
-    </div>
+        
     
   </div>
   
