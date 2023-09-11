@@ -80,6 +80,11 @@
 
 
 
+## ARCHIVED
+This is the old version of SpiderWeb. We have moved the project to [ProjNULL](https://github.com/ProjNull/) as [`spiderweb-fe`](https://github.com/ProjNull/spiderweb-fe) (GUI) and [`spiderweb-be`](https://github.com/ProjNull/spiderweb-be) (Server).
+
+*: We have rewritten it from scratch. :)
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
